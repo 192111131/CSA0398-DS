@@ -27,7 +27,7 @@
      if (root == NULL)   
          return;   
      traverseInorder(root->left);   
-     printf(" %d ", root->element);   
+     printf(" %d ", root->element);   
      traverseInorder(root->right);   
  }   
  void traversePostorder(struct node* root)   
